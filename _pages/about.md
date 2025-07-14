@@ -7,13 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a [master student](http://zju-fast.com/nanhe-chen/) at the [FASTLAB](http://zju-fast.com/) of Zhejiang University, supervised by Prof.[Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/), [Fei Gao](http://zju-fast.com/research-group/fei-gao/), and [Chao Xu](http://zju-fast.com/research-group/chao-xu/). I graduated with a Bachelor's degree with honor in Chu Kochen Honors College, Zhejiang University. I'm Preparing to apply for PhD research program now.
+I'm a [master student](http://zju-fast.com/nanhe-chen/) at the [FASTLAB](http://zju-fast.com/) of Zhejiang University, supervised by Prof.[Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/), [Fei Gao](http://zju-fast.com/research-group/fei-gao/), and [Chao Xu](http://zju-fast.com/research-group/chao-xu/). I graduated with a Bachelor's degree of Robotics Engineering with honor from Chu Kochen Honors College, Zhejiang University. I'm preparing to apply for PhD research program now.
 
 Research Interests
 ======
-My research lies in planning, including decision-making and motion planning. I mainly focus on 
-optimization-based and explainable learning-based methods. I am committed to enabling robots to 
-collaboratively and actively perceive in unknown spaces, to overcome single robot's shortages. At the same time, I focus on developing efficient and explainable motion planning algorithms for robots with uncertainty in challenging scenarios. I'd like to see robots could adjust self behaviors smartly based on its learned knowledge and current observations. Making robots move elegantly is my passion. My current research interets include
+My research lies in planning, including decision-making and motion planning. 
+I mainly focus on optimization-based and explainable learning-based methods. 
+I am committed to enabling robots to collaboratively and actively perceive in unknown spaces, to overcome single robot's shortages. 
+At the same time, I focus on developing efficient and explainable motion planning algorithms for robots field navigation in challenging scenarios. 
+I'd like to see robots could adjust self behaviors smartly based on its learned knowledge and current observations. Making robots move elegantly is my passion. My current research interets include
 - Multi-robot active perception for collaboration
 - Large scale parallel motion planning
 - Model-based policy optimization

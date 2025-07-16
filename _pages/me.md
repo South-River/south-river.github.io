@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Research Projects"
-permalink: /projects/
+title: "About Me"
+permalink: /me/
 author_profile: true
 ---
 

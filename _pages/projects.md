@@ -16,7 +16,7 @@ Recently, we zero-shot deploy the trained model without any post process.
 
 ## Parallel trajectory optimization
 
-After reading the [tutorial of distributed optimization](https://arxiv.org/abs/2301.11313), I'm wondering though the distributed optimization takes unacceptable time for real-time solving due toe the network latency, can we make it parallel on single machine to speed up the optimization process.
+After reading the [tutorial of distributed optimization](https://arxiv.org/abs/2301.11313), I'm wondering though the distributed optimization takes unacceptable time consumption due to the network latency, can we make it parallel on single machine to speed up the optimization process.
 Therefore, we rewrite the problem formulation of general motion planning problem and develop an algorithm based on consensus alternating direction multipliers method (CADMM). 
 We found our new pipeline surpassed GCOPTER in some domains, which has demonstrate state of the art performance performance in its paper.
 Meanwhile, due to the problem is formulated to a convex form, the algorithm is guaranteed to converge to the global optimal.
@@ -42,11 +42,11 @@ To tackle the problem in principle, we develop a new trajectory formulation base
 Developed an aerial-ground autonomous navigation system for drones using FAST-LIO and ego-planner. Achieved point cloud map relay sharing during exploration.
 
 <!-- <iframe height="315", width="560" src="videos/Rofly.mp4"></iframe> -->
-<video src="../videos/Rofly.mp4" controls width="560" height="315"></video>
+<video src="../videos/Rofly.mp4" controls width="800"></video>
 
 ## Swarm of drones' navigation
 
 Deployed swarm of drones equipped with ORB SLAM for localization, navigation safely within obstacles.
 
 <!-- <iframe height="315", width="560" src="videos/Swarm.mp4"></iframe> -->
-<video src="../videos/Swarm.mp4" controls width="560" height="315"></video>
+<video src="../videos/Swarm.mp4" controls width="800"></video>

@@ -30,7 +30,7 @@ Publications
   
   IEEE Robotics and Automation Letters
 
-- TOP: Trajectory Optimization via Parallel Optimization towards Constant Time Complexity [paper] [[video](https://www.youtube.com/watch?v=00LBW0G8CwU)]
+- TOP: Trajectory Optimization via Parallel Optimization towards Constant Time Complexity [[paper](https://arxiv.org/abs/2507.10290)] [[video](https://www.youtube.com/watch?v=00LBW0G8CwU)]
 
   Jiajun Yu*, **Nanhe Chen\***, Guodong Liu, Chao Xu, Fei Gao, and Yanjun Cao
 

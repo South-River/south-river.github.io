@@ -16,8 +16,8 @@ Recently, we zero-shot deploy the trained model without any post process.
 
 ## Parallel trajectory optimization
 
-After reading the [tutorial of distributed optimization](https://arxiv.org/abs/2301.11313), I'm wondering though the distributed optimization takes unacceptable time consumption due to the network latency, can we make it parallel on single machine to speed up the optimization process.
-Therefore, we rewrite the problem formulation of general motion planning problem and develop an algorithm based on consensus alternating direction multipliers method (CADMM). 
+After reading the [tutorial of distributed optimization](https://arxiv.org/abs/2301.11313), I'm wondering though the distributed optimization takes unacceptable time consumption due to the network latency, can we make it parallel on single machine to speed up the optimization process, while avoid the time cost in sharing gradients.
+Therefore, we rewrite the problem formulation of general motion planning problem and develop an algorithm based on consensus alternating direction multipliers method (CADMM) to solve numerous little problems. 
 We found our new pipeline surpassed GCOPTER in some domains, which has demonstrate state of the art performance performance in its paper.
 Meanwhile, due to the problem is formulated to a convex form, the algorithm is guaranteed to converge to the global optimal.
 

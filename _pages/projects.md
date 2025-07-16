@@ -43,3 +43,8 @@ Developed an aerial-ground autonomous navigation system for drones using FAST-LI
 
 <iframe height="315", width="560" src="videos/Rofly.mp4"></iframe>
 
+## Swarm of drones' navigation
+
+Deployed swarm of drones equipped with ORB SLAM for localization, navigation safely within obstacles.
+
+<iframe height="315", width="560" src="videos/Swarm.mp4"></iframe>

@@ -42,11 +42,11 @@ To tackle the problem in principle, we develop a new trajectory formulation base
 Developed an aerial-ground autonomous navigation system for drones using FAST-LIO and ego-planner. Achieved point cloud map relay sharing during exploration.
 
 <!-- <iframe height="315", width="560" src="videos/Rofly.mp4"></iframe> -->
-<video src="../videos/Rofly.mp4"></video>
+<video src="../videos/Rofly.mp4" controls width="560" height="315"></video>
 
 ## Swarm of drones' navigation
 
 Deployed swarm of drones equipped with ORB SLAM for localization, navigation safely within obstacles.
 
 <!-- <iframe height="315", width="560" src="videos/Swarm.mp4"></iframe> -->
-<video src="../videos/Swarm.mp4"></video>
+<video src="../videos/Swarm.mp4" controls width="560" height="315"></video>

@@ -7,6 +7,10 @@ redirect_from:
   - /about.html
 ---
 
+<audio autoplay loop controls>
+  <source src="../videos/Lorien.mp3" type="audio/mpeg">
+</audio>
+
 I'm a [master student](http://zju-fast.com/nanhe-chen/) at the [FASTLAB](http://zju-fast.com/) of Zhejiang University, supervised by Prof.[Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/), [Fei Gao](http://zju-fast.com/research-group/fei-gao/), and [Chao Xu](http://zju-fast.com/research-group/chao-xu/). 
 I graduated with a Bachelor's degree of Robotics Engineering with honor from Chu Kochen Honors College, Zhejiang University. 
 Currently, I'm preparing to apply for PhD research program.

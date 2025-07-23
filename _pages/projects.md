@@ -5,6 +5,10 @@ permalink: /projects/
 author_profile: true
 ---
 
+<audio autoplay loop controls>
+  <source src="../videos/Lorien.mp3" type="audio/mpeg">
+</audio>
+
 I am passionate about developing algorithms for robots to perform complex tasks in the real world. Here are the projects I have worked on:
 
 ## Zero-shot deployment of End2End framework on a imperfect robot

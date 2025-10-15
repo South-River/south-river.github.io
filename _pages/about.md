@@ -66,5 +66,5 @@ Publications
 
   Autonomous Robots
 
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115042712293478&bvid=BV1oBYrzVEzV&cid=25843670040&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+  <iframe width="560" height="315" src="//player.bilibili.com/player.html?isOutside=true&aid=115042712293478&bvid=BV1oBYrzVEzV&cid=25843670040&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 

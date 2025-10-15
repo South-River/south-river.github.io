@@ -7,9 +7,54 @@ redirect_from:
   - /about.html
 ---
 
-<audio autoplay loop controls>
+<!-- <audio autoplay loop controls>
   <source src="../videos/Lorien.mp3" type="audio/mpeg">
+</audio> -->
+
+<audio id="bgm" loop>
+  <source src="{{ '/videos/Lorien.mp3' | relative_url }}" type="audio/mpeg">
 </audio>
+
+<div id="music-btn" style="
+  position: fixed;
+  bottom: 25px; right: 25px;
+  width: 60px; height: 60px;
+  background: linear-gradient(135deg, #a2d2ff, #cdb4db);
+  border-radius: 50%;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+">
+  <span id="music-icon" style="font-size: 24px;">🎵</span>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const audio = document.getElementById('bgm');
+  const btn = document.getElementById('music-btn');
+  const icon = document.getElementById('music-icon');
+  let playing = false;
+
+  btn.addEventListener('click', async () => {
+    if (!playing) {
+      await audio.play();
+      playing = true;
+      icon.textContent = '🔊';
+      btn.style.transform = 'rotate(20deg)';
+    } else {
+      audio.pause();
+      playing = false;
+      icon.textContent = '🎵';
+      btn.style.transform = 'rotate(0deg)';
+    }
+  });
+});
+</script>
+
+# About Me
 
 I'm a [master student](http://zju-fast.com/nanhe-chen/) at the [FASTLAB](http://zju-fast.com/) of Zhejiang University, supervised by Prof.[Yanjun Cao](http://zju-fast.com/research-group/yanjun-cao/), [Fei Gao](http://zju-fast.com/research-group/fei-gao/), and [Chao Xu](http://zju-fast.com/research-group/chao-xu/). 
 I graduated with a Bachelor's degree of Robotics Engineering with honor from Chu Kochen Honors College, Zhejiang University. 

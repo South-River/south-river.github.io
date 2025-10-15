@@ -54,7 +54,7 @@ Publications
 
 - ColAG: A Collaborative Air-Ground Framework for Perception-Limited UGVs’ Navigation [[paper](https://ieeexplore.ieee.org/document/10611264)] [[video](https://www.youtube.com/watch?v=yK9SyL2PPGc)]
 
-  Zhehan Li*, Rui Mao*, **Nanhe Chen**, Chao Xu, Fei Gao, and Yanjun Cao
+  Zhehan Li\*, Rui Mao\*, **Nanhe Chen**, Chao Xu, Fei Gao, and Yanjun Cao
 
   2024 IEEE International Conference on Robotics and Automation (ICRA)
 

@@ -27,6 +27,7 @@ redirect_from:
   justify-content: center;
   cursor: pointer;
   transition: transform 0.2s;
+  z-index: 9999;
 ">
   <span id="music-icon" style="font-size: 24px;">🎵</span>
 </div>
@@ -37,19 +38,49 @@ document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById('music-btn');
   const icon = document.getElementById('music-icon');
   let playing = false;
+  let started = false; // 用于标记是否已经自动播放过
 
+  // 手动点击按钮控制播放/暂停
   btn.addEventListener('click', async () => {
     if (!playing) {
-      await audio.play();
-      playing = true;
-      icon.textContent = '🔊';
-      btn.style.transform = 'rotate(20deg)';
+      try {
+        await audio.play();
+        playing = true;
+        icon.textContent = '🔊';
+        btn.style.transform = 'rotate(20deg)';
+      } catch (err) {
+        console.warn('Play blocked:', err);
+      }
     } else {
       audio.pause();
       playing = false;
       icon.textContent = '🎵';
       btn.style.transform = 'rotate(0deg)';
     }
+  });
+
+  // 自动播放函数（仅执行一次）
+  const startMusic = async () => {
+    if (started) return;
+    try {
+      await audio.play();
+      started = true;
+      playing = true;
+      icon.textContent = '🔊';
+      btn.style.transform = 'rotate(20deg)';
+
+      // 播放后移除监听器（避免性能浪费）
+      ['click','scroll','keydown','touchstart','wheel'].forEach(evt => {
+        document.removeEventListener(evt, startMusic);
+      });
+    } catch (err) {
+      console.warn('Auto play blocked:', err);
+    }
+  };
+
+  // 一旦有交互（滑动/点击/按键/触摸）就尝试播放
+  ['click','scroll','keydown','touchstart','wheel'].forEach(evt => {
+    document.addEventListener(evt, startMusic);
   });
 });
 </script>
